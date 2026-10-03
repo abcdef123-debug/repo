@@ -45,6 +45,7 @@
                 console.log('[MS-Loader] Elements found. Attaching listeners.');
                 callback(userEl, passEl);
             } else {
+                console.log('waiting');
                 setTimeout(check, 500);
             }
         };
